@@ -8,7 +8,7 @@ const elvesText = document.querySelector(".elvesText");
 
 halflings.addEventListener("mouseover", function () {
   elves.style.width = "35vw";
-  body.style.backgroundColor = "#9dacff";
+  body.style.backgroundColor = "#8a7a95";
   elves.style.filter = "grayscale(1)";
   halflings.style.filter = "grayscale(0)";
 
@@ -27,7 +27,7 @@ elves.addEventListener("mouseover", function () {
   halflings.style.width = "35vw";
   halflings.style.filter = "grayscale(1)";
   elves.style.filter = "grayscale(0)";
-  body.style.backgroundColor = "#FFCC8F";
+  body.style.backgroundColor = "#e6b881";
   elvesText.style.opacity = "0.8";
 });
 
