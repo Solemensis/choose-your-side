@@ -20,10 +20,12 @@ body {
   background-image: url(1.jpg);
   background-position: center;
   background-size: cover;
+
   top: 50%;
   left: 0;
   filter: grayscale(0.7);
-  transition: 1s;
+  transition-property: filter, width;
+  transition-duration: 1s;
   position: absolute;
   height: 57rem;
   width: 50vw;
@@ -79,3 +81,42 @@ h2 {
     font-size: 14%;
   }
 }
+
+.choose1 {
+  position: absolute;
+  transition: 1s;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 150%);
+  font-size: 1.5rem;
+  color: white;
+  user-select: none;
+  background: rgba(62, 62, 62, 0.4);
+  border: white 2px solid;
+  padding: 1rem 4rem;
+  font-weight: 700;
+}
+
+/* .choose1:hover {
+} */
+
+.choose2 {
+  position: absolute;
+  transition: 1s;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 150%);
+  font-size: 1.5rem;
+  color: white;
+  user-select: none;
+  background: rgba(128, 128, 128, 0.4);
+  border: white 2px solid;
+  padding: 1rem 4rem;
+  font-weight: 700;
+}
+
+/* .choose2:hover {
+
+} */
